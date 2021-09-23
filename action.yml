@@ -28,9 +28,9 @@ runs:
   - name: Commit the versions.properties file
     shell: bash
     run: |
-      git config --local user.email "27856297+dependabot-preview[bot]@users.noreply.github.com"
+      git config --local user.email "49699333+dependabot-preview[bot]@users.noreply.github.com"
       git config --local user.name "refresh-versions[bot]"
-      git commit -m "Refresh `versions.properties`" -a
+      git commit -m 'Refresh `versions.properties`' -a
         
   - name: Push the versions.properties file
     uses: ad-m/github-push-action@master
